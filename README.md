@@ -20,6 +20,7 @@
        parents to q
    
     d) for each successor
+    
         i) if successor is the goal, stop search
         
         ii) else, compute both g and h for successor
@@ -41,6 +42,7 @@
             successor  is in the CLOSED list which has
             a lower f than successor, skip this successor
             otherwise, add  the node to the open list
+    
      end (for loop)
   
     e) push q on the closed list
